@@ -1,0 +1,105 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  margin: 25px 25px;
+  background-color: gray;
+  color: white;
+  padding: 24px;
+}
+
+
+.header{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+
+button{
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-size: medium;
+  font-weight: 200;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.copyBtn{
+  height: auto;
+  font-size:15px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.charlength{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.charlength span{
+  padding-left: 4px;
+  padding-right: 4px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+
+.checkboxes{
+  display: flex;
+  grid-template-columns: auto auto;
+  
+  font-size: 16px;
+  font-weight: 700px;
+  color: beige;
+  
+  padding-bottom: 20px;
+}
+
+.checkboxes div{
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.generateBtn{
+  width: 100%;
+  height: auto;
+  
+  font-weight: bolder;
+  
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Errormessage{
+  color: red;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+
+.password-strength{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2px;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}

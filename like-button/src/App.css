@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root{
+  --default-color:grey;
+  --active-color:red;
+}
+
+.likebtn{
+  margin-top: 5px;
+  margin-left: 10px;
+  border: 2px solid var(--default-color);
+  background-color: white;
+  color: var(--default-color);
+  border-radius: 15px;
+  border-color: var(--default-color);
+  padding: 3px 5px;
+  gap: 2px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.liked, .liked:hover{
+ background-color: var(--active-color);
+ color: white;
+ border-color: white;
+}
+
+.likebtn:hover{
+  border-color: var(--active-color);
+  color: var(--active-color);
+}
+
+.errmessage{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+
+.incrementcounter{
+  max-width: 100%;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
