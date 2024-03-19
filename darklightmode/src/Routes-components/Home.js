@@ -7,7 +7,7 @@ const Home=()=>{
     },[]);
    
     return(
-          <div className="page">this is home page</div>
+          <div className="page">this is home page for new branch WEB-3-figure-out-plan-for-checkout-process</div>
     )
 }
 
